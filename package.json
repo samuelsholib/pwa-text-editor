@@ -1,0 +1,26 @@
+{
+  "name": "pwa-text-editor",
+  "version": "1.0.0",
+  "description": "## Table Of Contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelsholib/pwa-text-editor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelsholib/pwa-text-editor/issues"
+  },
+  "homepage": "https://github.com/samuelsholib/pwa-text-editor#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "idb": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0"
+  }
+}
