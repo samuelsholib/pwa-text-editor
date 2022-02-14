@@ -39,10 +39,10 @@ export const getAllDb = async () => {
   const todosDb = await openDB('jate', 1);
   const tx = todosDb.transaction('jate', 'readonly');
   const store = tx.objectStore('jate');
-  const request = store.getAll();
+  const request = store.get(One);
   const result = await request;
   console.log('result.value', result);
-  return result;
+  return result.value;
 };
 export const getDb = async () => console.error('getDb not implemented');
 
