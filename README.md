@@ -7,6 +7,7 @@
 - [User Story](#User-Story)
 
 - [Acceptance Criteria](Acceptance-Criteria)
+- [Commands-to-run-the-app](Commands-to-run-the-app)
 
 ## Tasks
 
@@ -52,4 +53,14 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
+```
+## Commands-to-run-the-app
+```
+npm run build 
+To create a dist file in the directory
+```
+
+```
+npm start
+To start the app
 ```
