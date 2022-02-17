@@ -8,6 +8,7 @@
 
 - [Acceptance Criteria](Acceptance-Criteria)
 - [Commands-to-run-the-app](Commands-to-run-the-app)
+- [Mock-Up](#Mock-Up)
 
 ## Tasks
 
@@ -59,8 +60,11 @@ THEN I should have proper build scripts for a webpack application
 npm run build 
 To create a dist file in the directory
 ```
-
-```
 npm start
 To start the app
-```
+
+
+## Mock-Up
+The following animation demonstrates the application functionality:
+
+![yes](Assets/00-demo.gif)
